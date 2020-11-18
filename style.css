@@ -75,14 +75,23 @@ img {
 /* MEDIA QUERY */
 
 @media screen and (max-width: 420px) {
+  .row {
+    width: 420px;
+  }
 
   .container.grey {
     background-color: #fff;
   }
+
+  #lezioni img {
+    height: 130px;
+  }
+
   .left,
   .right {
     min-width: 100%;
     margin: 0;
+    background-color: #f9f9f9;
   }
 
   #steps .row>.left,
@@ -104,6 +113,7 @@ img {
     width: 100%;
     background-color: #f9f9f9;
     margin-top: 0;
+    padding: 20px;
   }
 
   #why img {
