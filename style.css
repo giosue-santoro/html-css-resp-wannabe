@@ -77,6 +77,7 @@ img {
 @media screen and (max-width: 420px) {
   .row {
     width: 420px;
+    margin: 0;
   }
 
   .container.grey {
@@ -110,13 +111,17 @@ img {
   #why .row>.first,
   #why .row>.second,
   #why .row>.third {
-    width: 100%;
+    min-width: 100%;
     background-color: #f9f9f9;
     margin-top: 0;
     padding: 20px;
   }
 
   #why img {
-    height: 100px;
+    height: 80px;
+  }
+
+  #why > .row {
+    width: calc(420px - 40px);
   }
 }
