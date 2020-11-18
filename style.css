@@ -71,3 +71,42 @@ img {
 .clear {
   clear: both;
 }
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 420px) {
+
+  .container.grey {
+    background-color: #fff;
+  }
+  .left,
+  .right {
+    min-width: 100%;
+    margin: 0;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    min-width: 100%;
+    padding-top: 50px;
+    background-color: #f9f9f9;
+    margin: 0;
+  }
+
+  #steps img {
+    height: 120px;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 100%;
+    background-color: #f9f9f9;
+    margin-top: 0;
+  }
+
+  #why img {
+    height: 100px;
+  }
+}
