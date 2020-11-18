@@ -75,6 +75,10 @@ img {
 /* MEDIA QUERY */
 
 @media screen and (max-width: 420px) {
+  * {
+    margin:0; padding:0; box-sizing:border-box;
+  }
+
   .row {
     width: 420px;
     margin: 0;
@@ -121,7 +125,11 @@ img {
     height: 80px;
   }
 
-  #why > .row {
-    width: calc(420px - 40px);
+  h1 {
+    padding: 30px 0;
+  }
+
+  hr {
+    margin-top: 30px;
   }
 }
